@@ -5,57 +5,67 @@
 	<link href="styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-	<img src="http://66.media.tumblr.com/b77f478ccc973347b3076e0f036ba62e/tumblr_mnmcsrwqD21ql3r9do1_1280.jpg" alt="Sungnyemun Gate at night"  width="640" height="425" />
+	<div id="bg-img"></div>
+	<img id="intro-pic" src="http://66.media.tumblr.com/b77f478ccc973347b3076e0f036ba62e/tumblr_mnmcsrwqD21ql3r9do1_1280.jpg" alt="Sungnyemun Gate at night" />
 	<br>
-	Photo credit: Robert Koehler <a href="http://rjkoehler.tumblr.com/post/51730239482/another-shot-of-seouls-landmarkand-newly">Rober Koehler Travel Photography</a>
+	<div id="intro-pc">
+		Photo credit: Robert Koehler <a href="http://rjkoehler.tumblr.com/post/51730239482/another-shot-of-seouls-landmarkand-newly">Rober Koehler Travel Photography</a>
+	</div>
 	<br>
-	<h1>Where to <em>next</em>?</h1>
-	<p>Traveling to me is about learning more about the <b>world</b> and <em>yourself</em>. <br>I really enjoy learning new cultures, eating new foods, different scenery, and meeting new people along the way.</p>
+	<div id="beg">
+		<h1>Where to <em>next</em>?</h1>
+		<p>Traveling to me is about learning more about the <b>world</b> and <em>yourself</em>. <br>I really enjoy learning new cultures, eating new foods, different scenery, and meeting new people along the way.</p>
 	<br>
-	
-	<p>List of countries I would like to visit next:</p> 
-	<ul>
-		<li>Croatia</li>
-		<li>Thailand</li>
-		<li>New Zealand</li>
-		<li>Turkey</li>
-		<li>Spain</li>
-	</ul>
+	</div>
+
+	<div id="countryList">	
+		<p>List of countries I would like to visit next:</p> 
+			<ul>
+				<li>Croatia</li>
+				<li>Thailand</li>
+				<li>New Zealand</li>
+				<li>Turkey</li>
+				<li>Spain</li>
+			</ul>
+	</div>
 		<br>
-	<form name="Destinations" action="thanks.html" method="post">
+	<div id="suggestForm">
+		<form name="Destinations" action="thanks.html" method="post">
 		<p>I am open to suggestions for places to go.<br> Please feel free to tell me a place and some things to do and/or where to eat :)</p>
 		<fieldset>
 			<div>
-				<label>Place:</label>
-				<input type="text" name="destinationname">
+				<label>Place:
+				<input type="text" name="destinationname"></label>
 			</div>
 			<br>
-			<div>
+			<div class="activities">
 				<label>Things to do:</label>
 				<br>
 				<textarea name="comments" cols="20" rows="6">Hiking, Swimming, Museums, etc...</textarea>
 			</div>
 			<br>
-			<div>
+			<div class="eating">
 				<label>Places to eat:</label>
 				<br>
 				<textarea name="comments" cols="20" rows="6">Restaurants, street vendors, carts, etc...</textarea>
 			</div>
-			</fieldset>
+		</fieldset>
 		<button type="submit">Submit</button>
-	</form>
-
+		</form>
+	</div>
 
 	<h2>Recent Travels</h2>
 	<img src="http://i.imgur.com/QUX9ciM.jpg" alt="gas works park seattle" width="1133" height="245" />
 	<br>
 	Photo credit: Paula Lee
 	<br>
-	<ol>
-		<li>Vancouver: <p>I am always amazed when I go somewhere new and Vancouver was no exception. Trees, greens, and plants everywhere and it was beautiful.</p></li>
-		<li>Victoria: <p>Visited the famous Butchart Gardens! <q>You can learn a lot of things from the flowers.</q> -Alice in Wonderland</p></li>
-		<li>Seattle: <p>I have been to Seattle countless times and I always love it. Pike's market, the mountains, the food, and just the atomosphere is always marvelous. Simply marvelous.</p></li>
-	</ol>
+	<div>
+		<ol>
+			<li>Vancouver: <p>I am always amazed when I go somewhere new and Vancouver was no exception. Trees, greens, and plants everywhere and it was beautiful.</p></li>
+			<li>Victoria: <p>Visited the famous Butchart Gardens! <q>You can learn a lot of things from the flowers.</q> -Alice in Wonderland</p></li>
+			<li>Seattle: <p>I have been to Seattle countless times and I always love it. Pike's market, the mountains, the food, and just the atomosphere is always marvelous. Simply marvelous.</p></li>
+		</ol>
+	</div>
 
 	<h3>Spotlight</h3>
 	

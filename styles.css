@@ -1,3 +1,82 @@
 body {
-	background-color: 	#909090;
+
+	background: url(http://i.imgur.com/wU5yDuj.jpg) no-repeat fixed center center;
+	background-size: 612px 816px;
+	background-color: #d3d3d3;
+}
+
+
+#intro-pic {
+	display: block;
+	margin: 0 auto;
+	width: 640px;
+	height: 425px;
+}
+
+#intro-pc {
+	text-align: center;
+}
+
+#beg {
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	height: 210px;
+	width: 475px;
+	margin: 10px auto 20px 50px;
+	text-align: left;
+}
+
+#countryList {
+	float: left;
+	height: 200px;
+	width: 150px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #86c5da;
+	padding-top: 10px;
+	margin: 10px 10px 20px 313px;
+	text-align: left;
+
+}
+
+#countryList p{
+	text-align:center;
+}
+
+#suggestForm{
+	float: left;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	height: 400px;
+	width: 450px ;
+	margin: 10px 10px 20px auto;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.activities, .eating {
+	float: left;
+}
+
+.activities {
+	margin: 18px 5px 0 50px;
+}
+
+.eating {
+	margin: 0 0 0 auto;
+}
+
+h2 {
+	clear:both;
+}
+
+fieldset{
+	border:0;
+}
+
+#thanks-page {
+	background-color: purple;
 }
