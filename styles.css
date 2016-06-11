@@ -23,8 +23,18 @@ body {
 	border-color: black;
 	height: 210px;
 	width: 475px;
-	margin: 10px auto 20px 50px;
+	margin: 0 auto;
 	text-align: left;
+}
+
+#listForm {
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0);
+	height: 450px;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
 }
 
 #countryList {
@@ -35,7 +45,7 @@ body {
 	border-style: solid;
 	border-color: #86c5da;
 	padding-top: 10px;
-	margin: 10px 10px 20px 313px;
+	margin: 28px 10px 20px 181px;
 	text-align: left;
 
 }
@@ -71,6 +81,11 @@ body {
 
 h2 {
 	clear:both;
+	text-align: center;
+}
+#gasworks {
+	display: block;
+	margin: 0 auto;
 }
 
 fieldset{
