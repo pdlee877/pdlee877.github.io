@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Discovery</title>
+	<title>
+		Discovery</title>
 	<link href="styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 	<div id="bg-img"></div>
-	<img id="intro-pic" src="http://66.media.tumblr.com/b77f478ccc973347b3076e0f036ba62e/tumblr_mnmcsrwqD21ql3r9do1_1280.jpg" alt="Sungnyemun Gate at night" />
+		<img id="intro-pic" src="http://66.media.tumblr.com/b77f478ccc973347b3076e0f036ba62e/tumblr_mnmcsrwqD21ql3r9do1_1280.jpg" alt="Sungnyemun Gate at night" />
 	<br>
 	<div id="intro-pc">
 		Photo credit: Robert Koehler <a href="http://rjkoehler.tumblr.com/post/51730239482/another-shot-of-seouls-landmarkand-newly">Rober Koehler Travel Photography</a>
@@ -18,44 +19,48 @@
 	<br>
 	</div>
 
-	<div id="countryList">	
-		<p>List of countries I would like to visit next:</p> 
-			<ul>
-				<li>Croatia</li>
-				<li>Thailand</li>
-				<li>New Zealand</li>
-				<li>Turkey</li>
-				<li>Spain</li>
-			</ul>
-	</div>
-		<br>
-	<div id="suggestForm">
-		<form name="Destinations" action="thanks.html" method="post">
-		<p>I am open to suggestions for places to go.<br> Please feel free to tell me a place and some things to do and/or where to eat :)</p>
-		<fieldset>
-			<div>
-				<label>Place:
-				<input type="text" name="destinationname"></label>
-			</div>
-			<br>
-			<div class="activities">
-				<label>Things to do:</label>
+	<div id="listForm">
+		<div id="countryList">	
+			<p>List of countries I would like to visit next:</p> 
+				<ul>
+					<li>Croatia</li>
+					<li>Thailand</li>
+					<li>New Zealand</li>
+					<li>Turkey</li>
+					<li>Spain</li>
+				</ul>
+		</div>
+			<br>	
+		<div id="suggestForm">
+			<form name="Destinations" action="thanks.html" method="post">
+			<p>I am open to suggestions for places to go.<br> Please feel free to tell me a place and some things to do and/or where to eat :)</p>
+				<fieldset>
+				<div>
+					<label>Place:
+					<input type="text" name="destinationname"></label>
+				</div>
 				<br>
-				<textarea name="comments" cols="20" rows="6">Hiking, Swimming, Museums, etc...</textarea>
-			</div>
-			<br>
-			<div class="eating">
-				<label>Places to eat:</label>
+
+				<div class="activities">
+					<label>Things to do:</label>
+					<br>
+					<textarea name="comments" cols="20" rows="6">Hiking, Swimming, Museums, etc...</textarea>
+				</div>
 				<br>
-				<textarea name="comments" cols="20" rows="6">Restaurants, street vendors, carts, etc...</textarea>
-			</div>
-		</fieldset>
-		<button type="submit">Submit</button>
-		</form>
+				<div class="eating">
+					<label>Places to eat:</label>
+					<br>
+					<textarea name="comments" cols="20" rows="6">Restaurants, street vendors, carts, etc...</textarea>
+				</div>
+				</fieldset>
+			<button type="submit">Submit</button>
+			</form>
 	</div>
 
 	<h2>Recent Travels</h2>
-	<img src="http://i.imgur.com/QUX9ciM.jpg" alt="gas works park seattle" width="1133" height="245" />
+		<div id="gasworks">
+			<img src="http://i.imgur.com/QUX9ciM.jpg" alt="gas works park seattle" width="1133" height="245" />
+		</div>
 	<br>
 	Photo credit: Paula Lee
 	<br>
