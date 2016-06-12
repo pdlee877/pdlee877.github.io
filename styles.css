@@ -1,19 +1,24 @@
-#bg-img {
-	height: 600px;
-	width: 100%;
-	background-image: url(http://i.imgur.com/TZjpRuJ.jpg);
+.bg-img {
+
+	/*background-image: url(http://i.imgur.com/TZjpRuJ.jpg);
+	position: relative;
+	background-position: 50% 50%;*/
+
+	/*background-image: url(http://i.imgur.com/TZjpRuJ.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 816px 612px;
-	display:inline;
+	display:inline;*/
 }
 
+
 body {
-	background-image: url(http://i.imgur.com/TZjpRuJ.jpg);
+	background: linear-gradient(rgba(235,235,235,0.5), rgba(235,235,235,0.5)), url(http://i.imgur.com/wU5yDuj.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-size: 816px 612px;
+	background-color: #ebebeb
 
 }
 
@@ -151,6 +156,4 @@ a:hover {
 	text-decoration: none;
 }
 
-#thanks-page {
-	background-color: purple;
-}
+
