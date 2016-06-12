@@ -1,8 +1,20 @@
-body {
+#bg-img {
+	height: 600px;
+	width: 100%;
+	background-image: url(http://i.imgur.com/TZjpRuJ.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 816px 612px;
+	display:inline;
+}
 
-	background: url(http://i.imgur.com/wU5yDuj.jpg) no-repeat fixed center center;
-	background-size: 612px 816px;
-	background-color: #d3d3d3;
+body {
+	background-image: url(http://i.imgur.com/TZjpRuJ.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: 816px 612px;
+
 }
 
 
@@ -17,33 +29,56 @@ body {
 	text-align: center;
 }
 
+nav {
+	text-align: center;
+}
+nav ul li {
+	font-size: 18px;
+	font-family: Arial;
+	display:inline;
+	padding: 10px;
+	margin: 0 auto;
+	width: 200px;
+	background-color: #ededed;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 5px;
+}
+
 #beg {
-	border-width: 2px;
+	/*border-width: 2px;
 	border-style: solid;
-	border-color: black;
-	height: 210px;
-	width: 475px;
+	border-color: black;*/
+	height: 175px;
+	width: 575px;
 	margin: 0 auto;
 	text-align: left;
+	padding: 20px;
 }
 
 #listForm {
 	border-width: 2px;
 	border-style: solid;
-	border-color: rgba(0,0,0,0);
-	height: 450px;
+	border-color: black;
+	height: 340px;
 	width: 1000px;
 	margin: 0 auto;
 	position: relative;
+
 }
 
 #countryList {
 	float: left;
-	height: 200px;
+	height: 275px;
 	width: 150px;
-	border-width: 2px;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: #86c5da;
+	/*border-width: 2px;
 	border-style: solid;
-	border-color: #86c5da;
+	border-color: #86c5da;*/
 	padding-top: 10px;
 	margin: 28px 10px 20px 181px;
 	text-align: left;
@@ -56,10 +91,10 @@ body {
 
 #suggestForm{
 	float: left;
-	border-width: 2px;
+	/*border-width: 2px;
 	border-style: solid;
-	border-color: black;
-	height: 400px;
+	border-color: black;*/
+	height: 275px;
 	width: 450px ;
 	margin: 10px 10px 20px auto;
 	padding: 10px;
@@ -67,22 +102,32 @@ body {
 
 }
 
-.activities, .eating {
+#activities, #eating {
 	float: left;
 }
 
-.activities {
-	margin: 18px 5px 0 50px;
+#activities {
+	margin: 3px 5px 0 50px;
 }
 
-.eating {
-	margin: 0 0 0 auto;
+#eating {
+	margin: -15px 0 0 auto;
 }
 
-h2 {
-	clear:both;
+.pstyle {
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.heading {
+	font-family: Georgia;
+	text-decoration: underline;
+	color: #228b57;
 	text-align: center;
 }
+h2 {
+	clear:both;
+}
+
 #gasworks {
 	display: block;
 	margin: 0 auto;
@@ -90,6 +135,20 @@ h2 {
 
 fieldset{
 	border:0;
+}
+
+a:link {
+	color: #86c5da;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #9a0000;
+}
+
+a:hover {
+	color: #99d0e0;
+	text-decoration: none;
 }
 
 #thanks-page {

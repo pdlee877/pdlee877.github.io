@@ -4,6 +4,7 @@
 	<title>
 		Discovery</title>
 	<link href="styles.css" type="text/css" rel="stylesheet" />
+		
 </head>
 <body>
 	<div id="bg-img"></div>
@@ -13,9 +14,18 @@
 		Photo credit: Robert Koehler <a href="http://rjkoehler.tumblr.com/post/51730239482/another-shot-of-seouls-landmarkand-newly">Rober Koehler Travel Photography</a>
 	</div>
 	<br>
+	<nav>
+		<ul>
+			<li><a href="suggestForm">Suggestion Form</a></li>
+			<li><a href="rTravels"> Recent Travels</a></li>
+			<li><a href="spotlight">Spotlight</a></li>
+		</ul>
+	</nav>
+
+	<br>
 	<div id="beg">
-		<h1>Where to <em>next</em>?</h1>
-		<p>Traveling to me is about learning more about the <b>world</b> and <em>yourself</em>. <br>I really enjoy learning new cultures, eating new foods, different scenery, and meeting new people along the way.</p>
+		<h1 class="heading">Where to <em>next</em>?</h1>
+		<p class="pstyle">Traveling to me is about learning more about the <b>world</b> and <em>yourself</em>. <br>I really enjoy learning new cultures, eating new foods, different scenery, and meeting new people along the way.</p>
 	<br>
 	</div>
 
@@ -35,19 +45,19 @@
 			<form name="Destinations" action="thanks.html" method="post">
 			<p>I am open to suggestions for places to go.<br> Please feel free to tell me a place and some things to do and/or where to eat :)</p>
 				<fieldset>
-				<div>
+				<div id="place">
 					<label>Place:
 					<input type="text" name="destinationname"></label>
 				</div>
 				<br>
 
-				<div class="activities">
+				<div id="activities">
 					<label>Things to do:</label>
 					<br>
 					<textarea name="comments" cols="20" rows="6">Hiking, Swimming, Museums, etc...</textarea>
 				</div>
 				<br>
-				<div class="eating">
+				<div id="eating">
 					<label>Places to eat:</label>
 					<br>
 					<textarea name="comments" cols="20" rows="6">Restaurants, street vendors, carts, etc...</textarea>
@@ -57,7 +67,7 @@
 			</form>
 	</div>
 
-	<h2>Recent Travels</h2>
+	<h2 id="rTravels" class="heading">Recent Travels</h2>
 		<div id="gasworks">
 			<img src="http://i.imgur.com/QUX9ciM.jpg" alt="gas works park seattle" width="1133" height="245" />
 		</div>
@@ -71,12 +81,11 @@
 			<li>Seattle: <p>I have been to Seattle countless times and I always love it. Pike's market, the mountains, the food, and just the atomosphere is always marvelous. Simply marvelous.</p></li>
 		</ol>
 	</div>
-
-	<h3>Spotlight</h3>
-	
-	<p>I really enjoy this travel blog called <a href="http://wandering.world/">Wandering the World</a> because it is simple and a fun easy read. <br>There are always great pictures of food and adventures, as well as, great tips, recommendations, and things to do.</p>
-
-
+	<div id="spotlight">
+		<h3 class="heading">Spotlight</h3>
+		
+		<p class="pstyle">I really enjoy this travel blog called <a href="http://wandering.world/">Wandering the World</a> because it is simple and a fun easy read. <br>There are always great pictures of food and adventures, as well as, great tips, recommendations, and things to do.</p>
+	</div>
 
 </body>
 </html>
