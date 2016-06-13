@@ -1,27 +1,11 @@
-.bg-img {
-
-	/*background-image: url(http://i.imgur.com/TZjpRuJ.jpg);
-	position: relative;
-	background-position: 50% 50%;*/
-
-	/*background-image: url(http://i.imgur.com/TZjpRuJ.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 816px 612px;
-	display:inline;*/
-}
-
-
 body {
-	background: linear-gradient(rgba(235,235,235,0.5), rgba(235,235,235,0.5)), url(http://i.imgur.com/wU5yDuj.jpg);
+	background: linear-gradient(rgba(252,252,252,0.5), rgba(252,252,252,0.5)), url(http://i.imgur.com/wU5yDuj.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: 816px 612px;
-	background-color: #ebebeb
-
+	background-color: #fcfcfc;
 }
-
 
 #intro-pic {
 	display: block;
@@ -30,11 +14,11 @@ body {
 	height: 425px;
 }
 
-#intro-pc {
+.photocred {
 	text-align: center;
 }
 
-nav {
+/*nav {
 	text-align: center;
 }
 nav ul li {
@@ -50,7 +34,7 @@ nav ul li {
 nav ul li a {
 	display: inline-block;
 	padding: 5px;
-}
+}*/
 
 #beg {
 	/*border-width: 2px;
@@ -59,25 +43,24 @@ nav ul li a {
 	height: 175px;
 	width: 575px;
 	margin: 0 auto;
-	text-align: left;
+	text-align: center;
 	padding: 20px;
 }
 
 #listForm {
-	border-width: 2px;
+	border-width: 4px;
 	border-style: solid;
-	border-color: black;
+	border-color: #ffff4d;
 	height: 340px;
-	width: 1000px;
+	width: 800px;
 	margin: 0 auto;
 	position: relative;
-
 }
 
 #countryList {
 	float: left;
 	height: 275px;
-	width: 150px;
+	width: 175px;
 	border-right-width: 3px;
 	border-right-style: solid;
 	border-right-color: #86c5da;
@@ -85,13 +68,8 @@ nav ul li a {
 	border-style: solid;
 	border-color: #86c5da;*/
 	padding-top: 10px;
-	margin: 28px 10px 20px 181px;
+	margin: 28px 10px 20px 100px;
 	text-align: left;
-
-}
-
-#countryList p{
-	text-align:center;
 }
 
 #suggestForm{
@@ -103,8 +81,7 @@ nav ul li a {
 	width: 450px ;
 	margin: 10px 10px 20px auto;
 	padding: 10px;
-	text-align: center;
-
+	text-align: left;
 }
 
 #activities, #eating {
@@ -112,7 +89,7 @@ nav ul li a {
 }
 
 #activities {
-	margin: 3px 5px 0 50px;
+	margin: 3px 5px 0 0;
 }
 
 #eating {
@@ -126,16 +103,36 @@ nav ul li a {
 .heading {
 	font-family: Georgia;
 	text-decoration: underline;
-	color: #228b57;
+	color: #990000;
 	text-align: center;
 }
-h2 {
-	clear:both;
+
+#rTravels {
+	line-height: 5em;
 }
 
 #gasworks {
 	display: block;
 	margin: 0 auto;
+	height: 175px;
+	width: 800px;
+}
+
+#spotlight {
+	display: block;
+	margin: 0px auto;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #00008b;
+	border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+	height: 180px;
+	width: 775px;
+	padding: 10px;
+	background-color: #fdfde9;
+}
+
+h2 {
+	clear:both;
 }
 
 fieldset{
@@ -143,17 +140,55 @@ fieldset{
 }
 
 a:link {
-	color: #86c5da;
+	color: 002e63;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #9a0000;
+	color: #006994;
 }
 
 a:hover {
-	color: #99d0e0;
+	color: 002e63;
 	text-decoration: none;
+}
+
+#thanks-body {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+#thanks-body p {
+	font-size: 1.5em;
+}
+
+@media screen and (min-width: 1202px) and (max-width: 2000px) {
+
+}
+
+@media screen and (min-width: 998px) and (max-width: 1199px) {
+	body{
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))url(http://i.imgur.com/wU5yDuj.jpg);
+		background-color:#a9a9a9;
+		color: #00008b;
+	}
+	.body-text {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 619px) and (max-width: 878px) {
+	body {
+	background: linear-gradient(rgba(252,252,252,0.5), rgba(252,252,252,0.5)), url(http://i.imgur.com/wU5yDuj.jpg);
+	background-color: #fcfcfc;
+	color: black;
+	}
+	.body-text {
+		font-size: 19px;
+	}
 }
 
 
