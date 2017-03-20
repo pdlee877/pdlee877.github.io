@@ -3,6 +3,7 @@ $(document).ready(function() {
     stickyNavigation();
     navigationScroll();
     hoverIconTextPopUp();
+    mobileNavigationToggle();
 });
 
 
@@ -43,5 +44,24 @@ var navigationScroll = function(){
 var hoverIconTextPopUp = function() {
     $('.tooltip').tooltipster({
         theme: 'tooltipster-light'
+    });
+};
+
+
+/* Mobile Navigation */
+var mobileNavigationToggle = function() {
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+        
+        nav.slideToggle(200);
+        
+        if (icon.hasClass('ion-navicon-round')) {
+            icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon-round');
+        } else {
+            icon.addClass('ion-navicon-round');
+            icon.removeClasS('ion-close-round');
+        }
     });
 };
