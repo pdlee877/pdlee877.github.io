@@ -130,6 +130,7 @@ h2:after {
 /*------------------------------*/
 
 header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg-img-10-min.jpeg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg-img-10-min.jpeg);
     background-size: cover;
     background-position: center;
@@ -142,6 +143,7 @@ header {
     width: 550px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); /* translates the element half of it's width and height up and to the left */ 
 }
 
@@ -189,12 +191,26 @@ header {
     text-transform: uppercase;
     font-size: 95%;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover ,
 .main-nav li a:active {
     border-bottom: 2px solid #f1c40f;
+}
+
+/* Mobile nav */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
 }
 
 /* Sticky nav */
@@ -257,7 +273,9 @@ header {
     /*  test  */
     opacity: 1;
     display: block;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    -webkit-transition: .5s ease;
     transition: .5s ease;
     
 /*    opacity: 0.7;*/
@@ -270,7 +288,9 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    -webkit-transition: .5s ease;
     transition: .5s ease;
 }
 
@@ -330,6 +350,7 @@ header {
     border-radius: 15%;
     position: relative;
     cursor: default;
+    -webkit-perspective: 900px;
     perspective: 900px;
 }
 
@@ -337,6 +358,7 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
@@ -347,7 +369,9 @@ header {
     height: 100%;
     border-radius: 15%;
     background-position: center center;
+    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
+    -webkit-transform-origin: 50% 0%;
     transform-origin: 50% 0%;
 }
 
@@ -356,6 +380,7 @@ header {
 }
 
 .ch-info .ch-info-back {
+    -webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
     transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
     background: #555;
     opacity: 0;
@@ -404,11 +429,13 @@ header {
 }
 
 .ch-item:hover .ch-info-front {
+    -webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
     transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
     opacity: 0;
 }
 
 .ch-item:hover .ch-info-back {
+    -webkit-transform: rotate3d(1,0,0,0deg);
     transform: rotate3d(1,0,0,0deg);
     opacity: 1;
 }
@@ -418,6 +445,7 @@ header {
 /*------------------------------*/
 
 .contact {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg-img-12.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg-img-12.jpg);
     background-size: cover;
     background-position: center;
@@ -441,6 +469,7 @@ header {
 
 .ion-ios-email, .ion-android-phone-portrait {
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
