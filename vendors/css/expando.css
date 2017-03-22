@@ -19,16 +19,16 @@ expando expanded, .expando .expanded {
 .expando-region .fake-expander {
   cursor: pointer;
   padding: 2px 0px;
-  color: #EF7A28;
-  -webkit-transition: background-color .25s linear;
-  transition: background-color .25s linear;
+  color: #41CCA5;
+  -webkit-transition: background-color .5s linear;
+  transition: background-color .5s linear;
   text-decoration: none;
 }
 
 .expando-region a.expander:hover,
 .expando-region a.fake-expander:hover {
-  -webkit-transition: background-color .25s linear;
-  transition: background-color .25s linear;
+  -webkit-transition: background-color .5s linear;
+  transition: background-color .5s linear;
   background-color: #ececec;
   text-decoration: none;
 }
@@ -49,7 +49,7 @@ expando expanded, .expando .expanded {
 @media print {
   .expando-region a.expander:hover,
   .expando-region a.fake-expander:hover {
-    color: #EF7A28 !important;
+    color: #41CCA5 !important;
   }
 
   .expando-region .expanded,

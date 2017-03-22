@@ -42,7 +42,7 @@
           initial.hide();
           expanded.show();
 
-          expanded.css("color", options.expansionStartColor || "#EF7A28").animate({
+          expanded.css("color", options.expansionStartColor || "#0AC3C8").animate({
             color: options.expansionEndColor || "#444"
           }, options.colorFadeTime || 2000);
 
