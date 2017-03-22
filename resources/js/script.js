@@ -4,6 +4,7 @@ $(document).ready(function() {
     navigationScroll();
     hoverIconTextPopUp();
     mobileNavigationToggle();
+    expandTelescopicText();
 });
 
 
@@ -65,3 +66,14 @@ var mobileNavigationToggle = function() {
         }
     });
 };
+
+
+var expandTelescopicText = function(){
+    $(function() {
+        $('.about-me-wrapper').expando();
+    });  
+};
+
+
+
+
