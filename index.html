@@ -3,6 +3,7 @@
     <head>
         
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
         
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -11,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/tooltipster.bundle.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/tooltipster-sideTip-light.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/expando.css" media="all">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
         <title>Paula Lee</title>
 
@@ -60,10 +62,80 @@
 
         <section class="section-about-me js--section-about-me" id="about-me">
             <div class="row">
-                <h2>Howdy!</h2>
-                <p class="long-copy">
-                    I'm Paula Lee
-<!--                    , a Texas native with a passion for traveling and adventures. I quit my job, packed my bags and move to the Bay Area to learn programming. After graduating from the University of Houston and working in the oil and gas industry, I realized I wanted more for my career-->
+                <h2>Discover</h2>
+                
+                <div class="about-me-wrapper">
+                  Howdy! I'm Paula, a 
+                  <expando>
+                    <initial><a>Texan</a>, </initial>
+                    <expanded>
+                        Texan and lover of barbecue,
+                    </expanded>
+                       who moved to Silicon Valley to pursue my dream of becoming a 
+                  </expando>
+                  <expando>
+                    <initial><a>web developer</a>.</initial>
+                    <expanded>
+                      web developer. I realized my passion for solving technical problems when I worked with Excel to create reports, debug, or make a nested IF function. <br><br>
+                    </expanded>
+                  </expando>
+                  As a full-stack developer, I enjoy working on both  
+                  <expando>
+                    <initial>front-end</initial>
+                    <expanded>
+                        front-end (design patterns, clean interfaces, and meaningful iconography)
+                    </expanded>
+                  </expando>
+                  and
+                  <expando>
+                    <initial><a>back-end</a>.</initial>
+                        <expanded>
+                            back-end (single responsibility methods, test-driven development, and modularity).
+                        </expanded>
+                  </expando>
+                    I love building <a href="#works">beautiful things</a>, going on 
+                    <expando>
+                        <initial><a>adventures</a>, </initial>
+                        <expanded>
+                            adventures to explore the world,
+                        </expanded>
+                    </expando>
+                    <expando>
+                        <initial><a>clamming</a>, </initial>
+                        <expanded>
+                            clamming (<img src="resources/img/purple.png" class="clam">),
+                        </expanded>
+                    </expando>
+                    and 
+                    <expando>
+                        <initial><a>reading</a>.</initial>
+                        <expanded>
+                            reading to figuratively time travel.<br><br>
+                        </expanded>
+                    </expando>
+                My goals are to 
+                <expando>
+                    <initial><a>expand</a> my</initial>
+                    <expanded>
+                        expand my creative and logical
+                    </expanded>
+                </expando>                    
+                skills, 
+                <expando>
+                    <initial><a>contribute</a> to open source projects, </initial>
+                    <expanded>
+                        contribute my growing knowledge of 
+                        <a href="#skills">programming languages</a> to open source projects,
+                    </expanded>
+                </expando>
+                and stay curious.
+                
+                Thanks for 
+                <expando>
+                    <initial>stopping by!</initial>
+                    <expanded> stopping by! Want to <a href="#contact">connect</a>? Let's grab coffee!</expanded>
+                </expando>
+                </div>
             </div>
         </section>
 
@@ -177,15 +249,18 @@
                     <li><a href="#"><i class="ion-android-phone-portrait icon-big tooltip" title="(281) 827-8748"></i></a></li>
                 </ul>
             </div>
+
         </section>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
         <script src="vendors/js/tooltipster.bundle.min.js"></script>
+        <script src="vendors/js/jquery.expando.js"></script>
         <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
         <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
-        
+
         
         <script src="resources/js/script.js"></script>
     </body>
