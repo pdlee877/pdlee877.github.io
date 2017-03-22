@@ -20,16 +20,16 @@ expando expanded, .expando .expanded {
   cursor: pointer;
   padding: 2px 0px;
   color: #41CCA5;
-  -webkit-transition: background-color .5s linear;
-  transition: background-color .5s linear;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
   text-decoration: none;
 }
 
 .expando-region a.expander:hover,
 .expando-region a.fake-expander:hover {
-  -webkit-transition: background-color .5s linear;
-  transition: background-color .5s linear;
-  background-color: #ececec;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+  border-bottom: 2px solid #f1c40f;
   text-decoration: none;
 }
 

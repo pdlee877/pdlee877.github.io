@@ -44,7 +44,7 @@
 
           expanded.css("color", options.expansionStartColor || "#0AC3C8").animate({
             color: options.expansionEndColor || "#444"
-          }, options.colorFadeTime || 2000);
+          }, options.colorFadeTime || 1000);
 
           expanded.children(".break").animate({
             marginBottom: options.expansionBreakMargin || "25px"
